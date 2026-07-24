@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STRYDE — Premium Footwear</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">STR<span>Y</span>DE</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#features">Why Us</a></li>
+        <li><a href="#lookbook">Lookbook</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="nav-icon-btn"><i class="fa-regular fa-heart"></i></button>
+        <button class="nav-icon-btn cart-btn"><i class="fa-solid fa-bag-shopping"></i><span class="cart-badge">3</span></button>
+        <a href="#collection" class="btn-nav-cta">Shop Now</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" id="mobileClose"><i class="fa-solid fa-xmark"></i></button>
+    <a href="#home" class="mobile-link">Home</a>
+    <a href="#collection" class="mobile-link">Collection</a>
+    <a href="#features" class="mobile-link">Why Us</a>
+    <a href="#lookbook" class="mobile-link">Lookbook</a>
+    <a href="#testimonials" class="mobile-link">Reviews</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+    <a href="#collection" class="btn-primary mobile-cta">Shop Now</a>
+  </div>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-blob hero-blob-1"></div>
+    <div class="hero-blob hero-blob-2"></div>
+    <div class="hero-container">
+      <div class="hero-text" data-aos="fade-right">
+        <span class="pill-tag"><i class="fa-solid fa-fire"></i> New Drop — Summer 2025</span>
+        <h1>Step Into<br/><em class="italic-accent">Your Best</em><br/>Version.</h1>
+        <p class="hero-desc">Premium footwear crafted for those who refuse to compromise — on style, comfort, or quality. Every pair tells a story.</p>
+        <div class="hero-cta-row">
+          <a href="#collection" class="btn-primary">Explore Collection</a>
+          <a href="#lookbook" class="btn-ghost"><i class="fa-solid fa-play"></i> Watch Lookbook</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number" data-target="12000">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Happy Customers</span>
+          </div>
+          <div class="stat-sep"></div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="200">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Unique Styles</span>
+          </div>
+          <div class="stat-sep"></div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="98">0</span><span class="stat-plus">%</span>
+            <span class="stat-label">Satisfaction Rate</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual" data-aos="fade-left">
+        <div class="hero-card-wrap">
+          <div class="hero-glow-ring"></div>
+          <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700&q=85" alt="Featured Shoe" class="hero-shoe-img" />
+          <div class="hero-float-tag tag-tl">
+            <i class="fa-solid fa-award"></i> Best Seller
+          </div>
+          <div class="hero-float-tag tag-br">
+            <i class="fa-solid fa-star"></i> 4.9 &nbsp;·&nbsp; 2,400+ reviews
+          </div>
+          <div class="hero-color-dots">
+            <span class="cdot active" style="background:#1a1a2e;"></span>
+            <span class="cdot" style="background:#e63946;"></span>
+            <span class="cdot" style="background:#457b9d;"></span>
+            <span class="cdot" style="background:#f4a261;"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE TICKER ===== -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Free Shipping Over $75</span><span class="mx">✦</span>
+      <span>Premium Leather</span><span class="mx">✦</span>
+      <span>30-Day Easy Returns</span><span class="mx">✦</span>
+      <span>Hand-Stitched Quality</span><span class="mx">✦</span>
+      <span>Sustainable Materials</span><span class="mx">✦</span>
+      <span>2-Year Warranty</span><span class="mx">✦</span>
+      <span>Free Shipping Over $75</span><span class="mx">✦</span>
+      <span>Premium Leather</span><span class="mx">✦</span>
+      <span>30-Day Easy Returns</span><span class="mx">✦</span>
+      <span>Hand-Stitched Quality</span><span class="mx">✦</span>
+      <span>Sustainable Materials</span><span class="mx">✦</span>
+      <span>2-Year Warranty</span><span class="mx">✦</span>
+    </div>
+  </div>
+
+  <!-- ===== CATEGORY PILLS ===== -->
+  <section class="categories-section">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-eyebrow">Browse By Style</span>
+        <h2>Find Your <span class="highlight">Perfect Fit</span></h2>
+      </div>
+      <div class="categories-grid" data-aos="fade-up">
+        <div class="cat-card" style="--cat-color:#e63946;">
+          <div class="cat-img"><img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&q=80" alt="Running"/></div>
+          <div class="cat-body">
+            <h3>Running</h3>
+            <span>48 styles</span>
+          </div>
+        </div>
+        <div class="cat-card" style="--cat-color:#457b9d;">
+          <div class="cat-img"><img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&q=80" alt="Casual"/></div>
+          <div class="cat-body">
+            <h3>Casual</h3>
+            <span>62 styles</span>
+          </div>
+        </div>
+        <div class="cat-card" style="--cat-color:#2d6a4f;">
+          <div class="cat-img"><img src="https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=400&q=80" alt="Formal"/></div>
+          <div class="cat-body">
+            <h3>Formal</h3>
+            <span>35 styles</span>
+          </div>
+        </div>
+        <div class="cat-card" style="--cat-color:#f4a261;">
+          <div class="cat-img"><img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&q=80" alt="Sport"/></div>
+          <div class="cat-body">
+            <h3>Sport</h3>
+            <span>29 styles</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COLLECTION / PRODUCTS ===== -->
+  <section class="collection" id="collection">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-eyebrow">Our Products</span>
+        <h2>Trending <span class="highlight">Collection</span></h2>
+        <p>Handpicked styles for every occasion — comfort meets craftsmanship.</p>
+      </div>
+      <div class="filter-row" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="running">Running</button>
+        <button class="filter-btn" data-filter="casual">Casual</button>
+        <button class="filter-btn" data-filter="formal">Formal</button>
+        <button class="filter-btn" data-filter="sport">Sport</button>
+      </div>
+      <div class="products-grid" id="productsGrid">
+
+        <div class="product-card" data-category="running">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&q=80" alt="Air Dash Pro" loading="lazy"/>
+            <span class="prod-badge new">New</span>
+            <div class="product-overlay">
+              <button class="overlay-btn"><i class="fa-regular fa-heart"></i></button>
+              <button class="overlay-btn"><i class="fa-regular fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="prod-cat">Running</span>
+            <h3>Air Dash Pro</h3>
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span>(312)</span></div>
+            <div class="prod-footer">
+              <span class="prod-price">$129.99</span>
+              <button class="btn-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="casual">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500&q=80" alt="Urban Stride" loading="lazy"/>
+            <span class="prod-badge sale">−20%</span>
+            <div class="product-overlay">
+              <button class="overlay-btn"><i class="fa-regular fa-heart"></i></button>
+              <button class="overlay-btn"><i class="fa-regular fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="prod-cat">Casual</span>
+            <h3>Urban Stride</h3>
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><span>(189)</span></div>
+            <div class="prod-footer">
+              <div><span class="prod-price">$89.99</span><span class="prod-price-old">$109.99</span></div>
+              <button class="btn-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="formal">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=500&q=80" alt="Oxford Elite" loading="lazy"/>
+            <div class="product-overlay">
+              <button class="overlay-btn"><i class="fa-regular fa-heart"></i></button>
+              <button class="overlay-btn"><i class="fa-regular fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="prod-cat">Formal</span>
+            <h3>Oxford Elite</h3>
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span>(97)</span></div>
+            <div class="prod-footer">
+              <span class="prod-price">$179.99</span>
+              <button class="btn-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="sport">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=500&q=80" alt="Flex Court" loading="lazy"/>
+            <span class="prod-badge new">New</span>
+            <div class="product-overlay">
+              <button class="overlay-btn"><i class="fa-regular fa-heart"></i></button>
+              <button class="overlay-btn"><i class="fa-regular fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="prod-cat">Sport</span>
+            <h3>Flex Court X</h3>
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><span>(241)</span></div>
+            <div class="prod-footer">
+              <span class="prod-price">$149.99</span>
+              <button class="btn-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="running">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500&q=80" alt="Cloud Racer" loading="lazy"/>
+            <span class="prod-badge sale">−15%</span>
+            <div class="product-overlay">
+              <button class="overlay-btn"><i class="fa-regular fa-heart"></i></button>
+              <button class="overlay-btn"><i class="fa-regular fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="prod-cat">Running</span>
+            <h3>Cloud Racer</h3>
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span>(405)</span></div>
+            <div class="prod-footer">
+              <div><span class="prod-price">$109.99</span><span class="prod-price-old">$129.99</span></div>
+              <button class="btn-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="casual">
+          <div class="product-img-wrap">
+            <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500&q=80" alt="Street Vibe" loading="lazy"/>
+            <div class="product-overlay">
+              <button class="overlay-btn"><i class="fa-regular fa-heart"></i></button>
+              <button class="overlay-btn"><i class="fa-regular fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="prod-cat">Casual</span>
+            <h3>Street Vibe Low</h3>
+            <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><span>(73)</span></div>
+            <div class="prod-footer">
+              <span class="prod-price">$79.99</span>
+              <button class="btn-cart">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="load-more-wrap" data-aos="fade-up">
+        <button class="btn-outline-dark">View Full Collection <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROMO BANNER ===== -->
+  <section class="promo-banner">
+    <div class="promo-inner">
+      <div class="promo-text">
+        <span class="promo-eyebrow">Limited Time</span>
+        <h2>Summer Sale — Up to <strong>40% Off</strong></h2>
+        <p>Stock is limited. Grab your pair before it's gone.</p>
+        <a href="#collection" class="btn-primary">Claim Offer</a>
+      </div>
+      <div class="promo-img">
+        <img src="https://images.unsplash.com/photo-1539185441755-769473a23570?w=600&q=80" alt="Sale shoes" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US / FEATURES ===== -->
+  <section class="features" id="features">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-eyebrow">Why Choose Stryde</span>
+        <h2>Built Different. <span class="highlight">Built Better.</span></h2>
+        <p>Every detail is intentional — because your feet deserve nothing less.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="feature-icon" style="--ic:#e63946;">
+            <i class="fa-solid fa-hand-sparkles"></i>
+          </div>
+          <h3>Handcrafted Quality</h3>
+          <p>Each pair is assembled by skilled artisans using techniques passed down through generations, ensuring unmatched build quality.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon" style="--ic:#457b9d;">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+          <h3>Eco-Friendly Materials</h3>
+          <p>We source sustainable, ethically harvested leathers and recycled materials — fashion that's kind to the planet.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon" style="--ic:#2d6a4f;">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <h3>Free Fast Shipping</h3>
+          <p>Orders over $75 ship free in 2–3 business days. We partner with premium logistics to get your order there fast.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="feature-icon" style="--ic:#f4a261;">
+            <i class="fa-solid fa-rotate-left"></i>
+          </div>
+          <h3>30-Day Easy Returns</h3>
+          <p>Not the right fit? No stress. Return or exchange within 30 days — no questions asked, fully hassle-free.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon" style="--ic:#9b5de5;">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3>2-Year Warranty</h3>
+          <p>Every Stryde shoe is backed by our industry-leading 2-year craftsmanship warranty. We stand by our work.</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon" style="--ic:#06d6a0;">
+            <i class="fa-solid fa-headset"></i>
+          </div>
+          <h3>24/7 Support</h3>
+          <p>Our dedicated customer care team is available around the clock — via chat, email, or phone whenever you need us.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOOKBOOK / GALLERY ===== -->
+  <section class="lookbook" id="lookbook">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-eyebrow">Lookbook 2025</span>
+        <h2>Style in <span class="highlight">Every Frame</span></h2>
+        <p>Real people. Real style. See how our community wears Stryde.</p>
+      </div>
+      <div class="lookbook-grid" data-aos="fade-up">
+        <div class="lb-item lb-tall">
+          <img src="https://images.unsplash.com/photo-1512374382149-233c42b6a83b?w=600&q=80" alt="Lookbook 1" loading="lazy"/>
+          <div class="lb-overlay"><span>Shop Look</span></div>
+        </div>
+        <div class="lb-item">
+          <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&q=80" alt="Lookbook 2" loading="lazy"/>
+          <div class="lb-overlay"><span>Shop Look</span></div>
+        </div>
+        <div class="lb-item">
+          <img src="https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?w=600&q=80" alt="Lookbook 3" loading="lazy"/>
+          <div class="lb-overlay"><span>Shop Look</span></div>
+        </div>
+        <div class="lb-item lb-wide">
+          <img src="https://images.unsplash.com/photo-1556906781-9a414e2a3794?w=800&q=80" alt="Lookbook 4" loading="lazy"/>
+          <div class="lb-overlay"><span>Shop Look</span></div>
+        </div>
+        <div class="lb-item">
+          <img src="https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=600&q=80" alt="Lookbook 5" loading="lazy"/>
+          <div class="lb-overlay"><span>Shop Look</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS / HOW IT'S MADE ===== -->
+  <section class="process-section">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-eyebrow">Our Craft</span>
+        <h2>From <span class="highlight">Sketch to Shelf</span></h2>
+        <p>Every Stryde shoe goes through a meticulous 4-step process before it reaches your door.</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step" data-aos="fade-up" data-aos-delay="0">
+          <div class="step-num">01</div>
+          <div class="step-icon"><i class="fa-solid fa-pencil-ruler"></i></div>
+          <h3>Design</h3>
+          <p>Our designers sketch each silhouette with ergonomics and aesthetics in mind — blending art with biomechanics.</p>
+        </div>
+        <div class="process-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+          <div class="step-num">02</div>
+          <div class="step-icon"><i class="fa-solid fa-scissors"></i></div>
+          <h3>Cut & Prepare</h3>
+          <p>Premium hides and sustainable textiles are precision-cut to exact patterns using state-of-the-art machinery.</p>
+        </div>
+        <div class="process-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+          <div class="step-num">03</div>
+          <div class="step-icon"><i class="fa-solid fa-needle"></i></div>
+          <h3>Handcraft</h3>
+          <p>Skilled artisans hand-stitch each piece, reinforcing every seam for durability that lasts years — not seasons.</p>
+        </div>
+        <div class="process-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+        <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+          <div class="step-num">04</div>
+          <div class="step-icon"><i class="fa-solid fa-circle-check"></i></div>
+          <h3>Quality Check</h3>
+          <p>Each pair passes a 32-point quality inspection before packaging — because a Stryde shoe must be perfect.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-eyebrow">Customer Reviews</span>
+        <h2>What People <span class="highlight">Are Saying</span></h2>
+      </div>
+      <div class="reviews-summary" data-aos="fade-up">
+        <div class="review-big-num">4.9</div>
+        <div class="review-big-stars">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+        </div>
+        <p>Based on 2,400+ verified reviews</p>
+      </div>
+      <div class="testimonials-grid" data-aos="fade-up">
+
+        <div class="review-card">
+          <div class="review-header">
+            <img src="https://i.pravatar.cc/60?img=11" alt="Sarah M" />
+            <div>
+              <strong>Sarah M.</strong>
+              <span>Verified Buyer</span>
+            </div>
+            <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          </div>
+          <p>"Absolutely love my Air Dash Pro! The fit is perfect and they look even better in person. I've been running 5k every morning and my feet have never felt this good."</p>
+          <span class="review-product">Air Dash Pro — Size 8</span>
+        </div>
+
+        <div class="review-card featured-review">
+          <div class="review-header">
+            <img src="https://i.pravatar.cc/60?img=33" alt="James K" />
+            <div>
+              <strong>James K.</strong>
+              <span>Verified Buyer</span>
+            </div>
+            <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          </div>
+          <p>"I've bought from a dozen shoe brands over the years, and Stryde is hands-down the best quality I've ever experienced. The Oxford Elite looks incredible with my suits — multiple compliments every week."</p>
+          <span class="review-product">Oxford Elite — Size 10</span>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <img src="https://i.pravatar.cc/60?img=47" alt="Priya R" />
+            <div>
+              <strong>Priya R.</strong>
+              <span>Verified Buyer</span>
+            </div>
+            <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          </div>
+          <p>"The return process was effortless — wrong size, exchanged within 3 days. The Urban Stride is now my go-to for weekends. Comfort level is unreal."</p>
+          <span class="review-product">Urban Stride — Size 7</span>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <img src="https://i.pravatar.cc/60?img=58" alt="Marcus T" />
+            <div>
+              <strong>Marcus T.</strong>
+              <span>Verified Buyer</span>
+            </div>
+            <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+          </div>
+          <p>"Flex Court X is a game changer on the basketball court. Ankle support is excellent and the grip is incredible. Highly recommend for any athlete."</p>
+          <span class="review-product">Flex Court X — Size 11</span>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <img src="https://i.pravatar.cc/60?img=22" alt="Emma L" />
+            <div>
+              <strong>Emma L.</strong>
+              <span>Verified Buyer</span>
+            </div>
+            <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          </div>
+          <p>"Fast shipping, gorgeous packaging, and the shoes are even more beautiful in person. I ordered two pairs and I'm already eyeing a third!"</p>
+          <span class="review-product">Urban Stride — Size 6</span>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <img src="https://i.pravatar.cc/60?img=65" alt="David W" />
+            <div>
+              <strong>David W.</strong>
+              <span>Verified Buyer</span>
+            </div>
+            <div class="review-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+          </div>
+          <p>"The warranty support was fantastic when I had a sole issue after 18 months — they replaced the pair no questions asked. That's how you build customer loyalty."</p>
+          <span class="review-product">Cloud Racer — Size 9</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWSLETTER ===== -->
+  <section class="newsletter">
+    <div class="newsletter-inner" data-aos="fade-up">
+      <div class="nl-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+      <h2>Join the Stryde Community</h2>
+      <p>Get early access to new drops, exclusive discounts, and style tips delivered straight to your inbox.</p>
+      <form class="nl-form" id="nlForm">
+        <input type="email" placeholder="Enter your email address" required />
+        <button type="submit" class="btn-primary">Subscribe</button>
+      </form>
+      <span class="nl-disclaimer">No spam. Unsubscribe anytime. We respect your privacy.</span>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section" id="contact">
+    <div class="section-container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-eyebrow">Get In Touch</span>
+        <h2>We'd Love to <span class="highlight">Hear From You</span></h2>
+        <p>Questions, wholesale inquiries, or just want to say hi — we're here.</p>
+      </div>
+      <div class="contact-grid" data-aos="fade-up">
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <strong>Visit Us</strong>
+              <span>14 Footwear Lane, New York, NY 10001</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <strong>Call Us</strong>
+              <span>+1 (800) 787-9330</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <strong>Email Us</strong>
+              <span>hello@stryde.com</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="ci-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <strong>Business Hours</strong>
+              <span>Mon–Fri: 9am – 6pm EST</span>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" placeholder="John" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" placeholder="Doe" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject">
+              <option value="">Select a topic</option>
+              <option>Order Inquiry</option>
+              <option>Return / Exchange</option>
+              <option>Wholesale</option>
+              <option>General Question</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell us how we can help..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="logo footer-logo">STR<span>Y</span>DE</a>
+        <p>Premium footwear for the modern mover. Crafted with passion, built to last.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-links-col">
+        <h4>Shop</h4>
+        <a href="#">New Arrivals</a>
+        <a href="#">Running</a>
+        <a href="#">Casual</a>
+        <a href="#">Formal</a>
+        <a href="#">Sport</a>
+        <a href="#">Sale</a>
+      </div>
+      <div class="footer-links-col">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Our Story</a>
+        <a href="#">Sustainability</a>
+        <a href="#">Careers</a>
+        <a href="#">Press</a>
+      </div>
+      <div class="footer-links-col">
+        <h4>Support</h4>
+        <a href="#">FAQ</a>
+        <a href="#">Shipping Info</a>
+        <a href="#">Returns</a>
+        <a href="#">Size Guide</a>
+        <a href="#">Track Order</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Stryde Footwear. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+      <div class="footer-payments">
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-cc-mastercard"></i>
+        <i class="fa-brands fa-cc-amex"></i>
+        <i class="fa-brands fa-cc-paypal"></i>
+        <i class="fa-brands fa-apple-pay"></i>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toastMsg">Added to cart!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
